@@ -10,7 +10,15 @@ OpenAPI YAML.
 make install
 ```
 
-## Generating the server
+## Running the server
+
+```sh
+go mod tidy
+go run .
+```
+
+
+## (Re)-Generating the server
 
 ```sh
 make gen
