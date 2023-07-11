@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/deepmap/oapi-codegen v1.13.0
+	github.com/getkin/kin-openapi v0.117.0
 	github.com/labstack/echo/v4 v4.10.2
 )
 
@@ -12,7 +13,6 @@ require (
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
-	github.com/getkin/kin-openapi v0.117.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.9.1 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect

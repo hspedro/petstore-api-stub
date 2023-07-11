@@ -14,7 +14,5 @@ install:
 
 .PHONY: gen
 gen:
-	$(Q)oapi-codegen \
-		-package main \
-		-generate server \
-		petstore-expanded.yaml > impl.go
+	$(Q)oapi-codegen --config models.cfg.yaml petstore-expanded.yaml
+	$(Q)oapi-codegen --config server.cfg.yaml petstore-expanded.yaml
